@@ -42,3 +42,27 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+# firebase setting
+
+ ◉ Database: Deploy Firebase Realtime Database Rules  
+ ◉ Firestore: Deploy rules and create indexes for Firestore  
+ ◯ Functions: Configure and deploy Cloud Functions  
+ ◉ Hosting: Configure and deploy Firebase Hosting sites  
+ ◯ Storage: Deploy Cloud Storage security rules  
+ ◯ Emulators: Set up local emulators for Firebase features  
+
+? What do you want to use as your public directory? build
+
+firebase.json 
+```
+  "hosting": {
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+```
+
