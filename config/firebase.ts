@@ -1,6 +1,7 @@
 import firebase from 'firebase';
 
 const config = {
+  some_key : "xxxxxxxxxxxxxxx",
   apiKey: "AIzaSyCrHDAOpN9A3O9YF_Xd8zIUP1VlgHKLJqE",
   authDomain: "react-sample001.firebaseapp.com",
   databaseURL: "https://react-sample001.firebaseio.com",
