@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import Zip from './zip';
 import Table from './table';
 import * as serviceWorker from './serviceWorker';
 
+ReactDOM.render(<Zip />, document.getElementById('zip'));
 ReactDOM.render(<Table />, document.getElementById('table'));
 
 // If you want your app to work offline and load faster, you can change
